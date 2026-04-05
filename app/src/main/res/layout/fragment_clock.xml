@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 打刻画面レイアウト -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".ClockFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="32dp">
+
+        <!-- 現在日時 -->
+        <TextView
+            android:id="@+id/text_current_datetime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:textSize="32sp"
+            android:textStyle="bold"
+            tools:text="2026/04/05 21:48" />
+
+        <!-- 現在地の住所 -->
+        <TextView
+            android:id="@+id/text_current_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="@string/location_loading"
+            android:textColor="#757575"
+            android:textSize="16sp" />
+
+        <!-- 出勤するボタン -->
+        <Button
+            android:id="@+id/button_clock_in"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="48dp"
+            android:backgroundTint="@color/accent_blue"
+            android:text="@string/clock_in"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <!-- 退勤するボタン -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/button_clock_out"
+            style="@style/Widget.Material3.Button.OutlinedButton"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/clock_out"
+            android:textColor="@color/accent_blue"
+            android:textSize="18sp"
+            android:strokeColor="@color/accent_blue" />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- ナビゲーショングラフ：打刻画面と履歴画面 -->
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/clockFragment">
+
+    <fragment
+        android:id="@+id/clockFragment"
+        android:name="com.example.attendanceapp.ClockFragment"
+        android:label="@string/tab_clock" />
+
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="com.example.attendanceapp.HistoryFragment"
+        android:label="@string/tab_history" />
+</navigation>

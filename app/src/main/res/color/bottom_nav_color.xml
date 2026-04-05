@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- BottomNavigationView のアイテム色（選択中は青、非選択はグレー） -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:color="@color/accent_blue" android:state_checked="true" />
+    <item android:color="#757575" />
+</selector>

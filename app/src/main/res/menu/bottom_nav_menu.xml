@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- BottomNavigationView 用メニュー -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/clockFragment"
+        android:icon="@drawable/ic_clock"
+        android:title="@string/tab_clock" />
+    <item
+        android:id="@+id/historyFragment"
+        android:icon="@drawable/ic_history"
+        android:title="@string/tab_history" />
+</menu>

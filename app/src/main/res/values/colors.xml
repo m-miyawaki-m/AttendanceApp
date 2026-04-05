@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <!-- アクセントカラー（青） -->
+    <color name="accent_blue">#185FA5</color>
+</resources>

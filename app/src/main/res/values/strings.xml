@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">AttendanceApp</string>
+    <string name="tab_clock">打刻</string>
+    <string name="tab_history">履歴</string>
+    <string name="clock_in">出勤する</string>
+    <string name="clock_out">退勤する</string>
+    <string name="clock_in_done">出勤を記録しました</string>
+    <string name="clock_out_done">退勤を記録しました</string>
+    <string name="location_loading">取得中...</string>
+    <string name="location_unknown">住所を取得できませんでした</string>
+    <string name="location_permission_denied">位置情報の権限が許可されていません</string>
+    <string name="history_empty">履歴がありません</string>
+</resources>
